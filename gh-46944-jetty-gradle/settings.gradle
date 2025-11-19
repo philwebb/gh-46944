@@ -1,0 +1,8 @@
+pluginManagement {
+	repositories {
+		mavenLocal()
+		maven { url = 'https://repo.spring.io/snapshot' }
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'gh-46944-jetty-gradle'

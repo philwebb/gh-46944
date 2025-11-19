@@ -1,0 +1,8 @@
+Sample to ensure wars work.
+
+For Jetty, install the following modules:
+
+[,shell]
+----
+$ java -jar "$JETTY_HOME/start.jar" --add-modules=ee10-webapp,ee10-deploy,ee10-jsp,ee10-jstl,ee11-webapp,ee11-deploy,ee11-jsp,ee11-jstl
+----
